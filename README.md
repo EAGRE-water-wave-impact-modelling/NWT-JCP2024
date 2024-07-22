@@ -1,5 +1,5 @@
 ## About
-Revisit the [3D wave tank test cases (TCs)](https://github.com/EAGRE-water-wave-impact-modelling/3D-wave-tank-JCP2022) through the "VP-based approach" where the weak formulations are now generated automatically based on the time-discretised VP via Firedrake's `derivative()` functionality. 
+This repository contains all the codes associated with the paper *Variational numerical-modelling strategies for the simulation of driven free-surface waves*, where we revisit the [3D wave tank test cases (TCs)](https://github.com/EAGRE-water-wave-impact-modelling/3D-wave-tank-JCP2022) through the "VP-based approach" where the weak formulations are now generated automatically and implemented implicitly based on a time-discretised VP onto which [*Firedrake*](https://www.firedrakeproject.org/)'s `derivative()` functionality applies. 
 
 To compare the results with the old ones, some changes are also made to the original code, where manually derived weak formulations for the SE and SV schemes are explicitly formulated in *Firedrake*.
 
