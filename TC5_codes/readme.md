@@ -23,7 +23,7 @@ The computational data can be visualised as follows:
 - Time evolution of A can be plotted by running file `PFE_sp2A.py`.
 - Time evolution of maximum/A can be plotted by running file `PFE_sp2maxA.py`.
 
-We provide a table in which parameters were uses for setting simulations as follows. We denote spatial resolution by $\Delta x\approx\Delta y=965.4/97$. $T$ is the total simulation time defined as $T=t_{end}-t_{0}$ with $t_0=0{\rm s}$. $\Delta t=0.2856{\rm s}$ or $\Delta t_{BLE}=0.01$.  In order to change order of basis, modify nCG (currently setting nCG=2). For $N_y$, modify multiple (currently setting mutiple=1), for $\Delta t_{BLE}$, modify mutiple2(currently setting multiple2=1).  All simuations were run on 40 cores of Leeds' arc4-HPC. The table below appears within the caption of fig.13.
+We provide a table in which parameters were uses for setting simulations as follows. We denote spatial resolution by $\Delta x\approx\Delta y=965.4/97$. $T$ is the total simulation time defined as $T=t_{end}-t_{0}$ with $t_0=0{\rm s}$. $\Delta t=0.2856{\rm s}$ or $\Delta t_{BLE}=0.01$.  In order to change order of basis, modify nCG (currently setting nCG=2). For $N_y$, modify multiple (currently setting mutiple=1), for $\Delta t_{BLE}$, modify mutiple2(currently setting multiple2=1).  All simullations were given the same parameters as follws: $\epsilon$$=0.05. All simuations were run on 40 cores of Leeds' arc4-HPC. The table below appears within the caption of fig.13.
   
 Simulation |$\epsilon$|$\delta$| $L_x$ (m) | $L_y$ (m) |$L_z=H_0$ (m) | $T$ (s) |$\Delta t_{BLE}$ | $N_x$ | $N_y$ |$N_z$|DoFs |Run time (min)  
 :---        | :---      | :---    | :---       | :----     |:----           |:---      | :---           | :---    |:---   |:---| :---|:---
