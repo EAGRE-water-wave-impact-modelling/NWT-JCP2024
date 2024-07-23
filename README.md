@@ -3,6 +3,8 @@ This repository contains all the codes associated with the paper *Variational nu
 
 To compare the results with the old ones, some changes are also made to the original code, where manually derived weak formulations for the SE and SV schemes are explicitly formulated in *Firedrake*.
 
+Regarding TC5 simulation, please see readme in TC5_codes.
+
 ## Computation Codes
 - Main file:
     - The new approach: `3D_tank_VP.py`
@@ -40,3 +42,4 @@ To compare the results with the old ones, some changes are also made to the orig
 | TC1/2 |**`3D_tank_VP.py`** <br/>`settings_TC1/2.py`, `savings.py` | **`3D_tank.py`** + `solvers_full.py` <br/>`settings_TC1/2.py`, `savings.py`  |
 | TC3       |**`3D_tank_VP.py`** <br/>`settings_TC3.py`, `savings.py`<br/> :white_check_mark: Δt=0.001s: Done. 22h(16p-YL); <br/> :white_check_mark: Δt=0.002s: Done. 11h(16p-YL)/24h(32p-HPC) | **`3D_tank.py`** + `solvers_full.py` <br/>`settings_TC3.py`, `savings.py` <br/> :white_check_mark: Δt=0.001s: Done. 15h(16p-YL); <br/> :white_check_mark: Δt=0.002s: Done. 7h(16p-YL). |
 | TC4       |**`3D_tank_VP.py`** <br/>`settings_TC4.py`, `savings.py`<br/> folder [202002](202002) <br/> :white_check_mark: Done. 28h(16p-YL). 20240108 |  **`3D_tank.py`** + `solvers_full.py`<br/>`settings_TC4.py`, `savings.py` <br/> folder [202002](202002) <br/> :white_check_mark: Done. 26h(16p-YL). 20240113  |
+| TC5       |**`pot_sp2.py`** <br/>`PFE_sp2max.py`, `PFE_sp2maxA.py`, `PFE_sp2A.py`, `PFE_sp2energy.py`<br/> folder TC5_codes <br/> :white_check_mark: Done. 20240724
