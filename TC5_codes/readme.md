@@ -27,10 +27,8 @@ We provide a table in which parameters were uses for setting simulations as foll
   
 Simulation  |$\Delta t_{BLE}$ | $N_x$ | $N_y$ |$N_z$|DoFs |Run time (min)  
  :---           | :---    |:---   |:---| :---|:---|:---
-PFE: CG2/ $\frac{\Delta y}{3}$ / $\Delta t$ |0.005  | 226 | 600 | 4|5,750,388|2880
-PFE: CG4/ $\frac{2\Delta y}{3}$ / $\Delta t$ |0.005  | 133 | 300 | 4|5,750,388|5588
-PFE: CG2/ $\frac{\Delta y}{4}$ / $\Delta t$ |0.005  | 355 | 800 | 4|10,230,390|5383
-PFE: CG2/ $\frac{\Delta y}{3}$ / $\frac{\Delta t}{2}$ |0.0025  | 226 | 600 | 4|5,750,388|6094.6
-BLE: CG2/ $\frac{\Delta y}{3}$ / $\Delta t$ |0.005  | 226 | 600 |-- |--|396
-
+PFE: CG2/ $\Delta x$ / $\Delta t$ |0.01  | 97 | 485 | 4|1,695,366|615
+PFE: CG4/ $2\Delta x$ / $\Delta t$ |0.01  | 48 | 242 | 4|1,674,432|1066
+PFE: CG2/ $\frac{\Delta y}{2}$ / $\Delta t$ |0.01  | 193 | 969 | 4|6,736,086|3409
+PFE: CG2/ $\Delta x$ / $\frac{\Delta t}{2}$ |0.005  | 97 | 485 | 4|1,695,366|1276
 ## Reference
